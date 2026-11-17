@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="410" height="132" viewBox="0 0 410 132">
+  <title>YUN WELLNESS MONGOLIA</title>
+  <g id="symbol" transform="scale(1.1)">
+    <path d="M77.8 11.1 A52 52 0 1 1 42.2 11.1" fill="none" stroke="#68465F" stroke-width="4" stroke-linecap="round"/>
+    <circle cx="60" cy="11" r="4.5" fill="#7D9B8A"/>
+    <path d="M58 88 C40 86 30 70 30 54 C44 58 54 70 58 88 Z" fill="#E8C9D3" stroke="#68465F" stroke-width="2" stroke-linejoin="round"/>
+    <path d="M62 88 C80 86 90 70 90 54 C76 58 66 70 62 88 Z" fill="#E8C9D3" stroke="#68465F" stroke-width="2" stroke-linejoin="round"/>
+    <path d="M60 88 C46 74 48 52 60 36 C72 52 74 74 60 88 Z" fill="#68465F"/>
+    <path d="M36 95 C50 101 70 101 84 95" fill="none" stroke="#7D9B8A" stroke-width="3" stroke-linecap="round"/>
+  </g>
+  <g id="wordmark">
+    <text x="164" y="68" font-family="'Cormorant Garamond', 'EB Garamond', Garamond, serif" font-weight="600" font-size="72" letter-spacing="12.96" fill="#68465F">YUN</text>
+    <rect x="164" y="93.15" width="64" height="1.5" fill="#7D9B8A"/>
+    <text x="164" y="118.4" font-family="Montserrat, 'Helvetica Neue', Arial, sans-serif" font-weight="500" font-size="13" letter-spacing="5.46" fill="#68465F">WELLNESS MONGOLIA</text>
+  </g>
+</svg>

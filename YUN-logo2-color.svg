@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="460" height="243" viewBox="0 0 460 243">
+  <title>YUN WELLNESS MONGOLIA</title>
+  <g id="symbol" transform="translate(175 0)">
+    <path d="M10 140 L10 55 A45 45 0 0 1 100 55 L100 140 Z" fill="#68465F"/>
+    <circle cx="55" cy="38" r="6" fill="#7D9B8A"/>
+    <path d="M55 100 C39 94 29 77 31 56 C46 62 54 79 55 100 Z" fill="#E8C9D3"/>
+    <path d="M55 100 C71 94 81 77 79 56 C64 62 56 79 55 100 Z" fill="#E8C9D3"/>
+    <path d="M55 100 L55 126" fill="none" stroke="#E8C9D3" stroke-width="3" stroke-linecap="round"/>
+  </g>
+  <g id="wordmark">
+    <text x="232.64" y="204" text-anchor="middle" font-family="'Cormorant Garamond', 'EB Garamond', Garamond, serif" font-weight="500" font-size="44" letter-spacing="5.28" fill="#68465F">YUN WELLNESS</text>
+    <rect x="111.25" y="232.35" width="40" height="1.5" fill="#7D9B8A"/>
+    <text x="233.25" y="237.76" text-anchor="middle" font-family="Montserrat, 'Helvetica Neue', Arial, sans-serif" font-weight="500" font-size="13" letter-spacing="6.5" fill="#68465F">MONGOLIA</text>
+    <rect x="308.75" y="232.35" width="40" height="1.5" fill="#7D9B8A"/>
+  </g>
+</svg>

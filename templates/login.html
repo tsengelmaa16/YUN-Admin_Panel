@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="mn">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#123c32">
+  <title>Нэвтрэх | YUN</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body class="login-page">
+  <main class="login-shell">
+    <section class="brand-panel" aria-label="YUN админ самбар">
+      <a class="brand-mark" href="{{ url_for('index') }}" aria-label="YUN нүүр хуудас">
+        <img src="{{ url_for('brand_logo') }}" alt="YUN">
+      </a>
+      <div class="brand-copy">
+        <p class="eyebrow">АДМИН САМБАР</p>
+        <h1>Агуулгаа<br>нэг дороос.</h1>
+        <p class="brand-note">Таны ажлын орон зайд тавтай морил.</p>
+      </div>
+    </section>
+
+    <section class="login-panel">
+      <div class="login-form-wrap">
+        <p class="eyebrow form-eyebrow">АДМИН ЭРХ</p>
+        <h2>Нэвтрэх</h2>
+        <p class="form-intro">Бүртгэлтэй и-мэйл, нууц үгээ оруулна уу.</p>
+
+        {% with messages = get_flashed_messages(with_categories=true) %}
+          {% for category, message in messages %}
+            <p class="notice notice-{{ category }}" role="alert">{{ message }}</p>
+          {% endfor %}
+        {% endwith %}
+
+        <form method="post" action="{{ url_for('login') }}" class="login-form">
+          <input type="hidden" name="csrf_token" value="{{ csrf_token }}">
+          <label for="email">И-мэйл</label>
+          <input id="email" name="email" type="email" autocomplete="username" placeholder="нэр@жишээ.mn" required autofocus>
+
+          <div class="field-heading">
+            <label for="password">Нууц үг</label>
+          </div>
+          <input id="password" name="password" type="password" autocomplete="current-password" placeholder="Нууц үгээ оруулна уу" required>
+
+          <button class="primary-button" type="submit">
+            <span>Нэвтрэх</span><span class="button-arrow" aria-hidden="true">→</span>
+          </button>
+        </form>
+        <p class="login-footnote"><span class="secure-dot" aria-hidden="true"></span>Хувийн админ орчин</p>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
